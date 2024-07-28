@@ -10,9 +10,9 @@ class Solution {
                 compressed.append(frequency)
                 compressed.append(word[i - 1])
                 frequency = 1
-                continue;
+                continue
             }
-            ++frequency;
+            ++frequency
         }
         compressed.append(frequency)
         compressed.append(word[word.length - 1])
