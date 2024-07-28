@@ -15,9 +15,9 @@ class Solution {
                 compressed[index++] = (frequency + ASCII_ZERO).toChar()
                 compressed[index++] = word[i - 1]
                 frequency = 1
-                continue;
+                continue
             }
-            ++frequency;
+            ++frequency
         }
         compressed[index++] = (frequency + ASCII_ZERO).toChar()
         compressed[index++] = word[word.length - 1]
